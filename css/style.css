@@ -109,12 +109,21 @@ h6 {
 }
 
 @font-face {
-  font-family: Bodoni Classic Swashes Roman;
+  font-family: Bodoni Classic Swashes;
   font-display: swap;
   src: url("../fonts/Bodoni Classic Swashes Roman.woff") format("woff"), url("../fonts/Bodoni Classic Swashes Roman.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: Sevillana;
+  font-display: swap;
+  src: url("../fonts/Sevillana-Regular.woff") format("woff"),
+    url("../fonts/Sevillana-Regular.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 .mobile-menu,
 .menu-btn {
@@ -634,8 +643,9 @@ body {
 
 h1,
 h2 {
-  font-family: Bodoni Classic Swashes Roman, sans-serif;
-  font-family: Sevillana, cursive;
+/*   font-family: Bodoni Classic Swashes Roman, sans-serif;
+  font-family: Sevillana, cursive; */
+  font-family: "Bodoni Classic Swashes", Sevillana, sans-serif;
 }
 
 a:hover {
